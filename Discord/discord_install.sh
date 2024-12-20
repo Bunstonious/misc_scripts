@@ -26,7 +26,7 @@ if test -f "$dFile"; then
     # Sudo and remove the link to the old version and symlink the new version.
 
     sudo rm /usr/bin/Discord
-    sudo ln -s /home/tbunston/Apps/Discord/$dVersion/Discord /usr/bin/Discord
+    sudo ln -s /opt/Apps/Discord/$dVersion/Discord /usr/bin/Discord
 else
     echo "File: $dFile"
     echo "Does not exist! Exiting."
